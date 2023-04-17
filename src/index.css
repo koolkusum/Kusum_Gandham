@@ -1,0 +1,279 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.cs-major {
+  font-size: 1.8rem; /* adjust the font size as needed */
+  color: rgba(255, 255, 255, 0.911); /* adjust the color as needed */
+}
+
+.hi-kusum {
+  font-size: 4rem; /* adjust the font size as needed */
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  animation: typing 3.5s steps(40, end);
+  position: relative; /* add this to enable absolute positioning of ::after pseudo-element */
+}
+@media screen and (max-width: 768px) {
+  /* Styles for small screens */
+  .cs-major {
+    font-size: 3.5vw;
+  }
+  .hi-kusum {
+    font-size: 7vw;
+  }
+  .about-img-container {
+    width: 70vw;
+    height: 70vw;
+  }
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The blink effect */
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.typewriter::after {
+    content: '|'; /* add a vertical bar as content */
+    position: absolute; /* absolute positioning relative to its parent .typewriter */
+    right: -0.2em; /* move the vertical bar a bit further to the right */
+    animation: blink 0.7s infinite; /* make the vertical bar blink */
+    opacity: 0; /* initially make the vertical bar invisible */
+    color: #e85d75; /* set the color of the vertical bar to #e85d75 */
+    font-size: 4rem;
+  }
+  
+
+.github-btn,
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E85D75;
+  color: white;
+  border-radius: 9999px;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.github-btn:hover,
+.linkedin-btn:hover {
+  background-color: #FF79A0;
+}
+/* CSS */
+.about-img-container {
+    width: 400px; /* adjust as needed */
+    height: 400px; /* adjust as needed */
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-me {
+    font-size: 1.5rem;
+    color:rgba(255, 255, 255, 0.607)
+  }
+  .animated {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;
+}
+
+.timeline-container::after {
+    background-color: #e17b77;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 4px;
+    height: 100%;
+}
+.timeline-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    position: relative;
+    margin: 10px 0;
+    width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+    align-self: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 0;
+}
+.timeline-item-content {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px;
+    position: relative;
+    width: 400px;
+    max-width: 70%;
+    text-align: right;
+}
+
+.timeline-item-content::after {
+    content: ' ';
+    background-color: #fff;
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: -7.5px;
+    top: calc(50% - 7.5px);
+    transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content::after {
+    right: auto;
+    left: -7.5px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.timeline-item-content .tag {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    top: 5px;
+    left: 5px;
+    letter-spacing: 1px;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .tag {
+    left: auto;
+    right: 5px;
+}
+
+.timeline-item-content time {
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.timeline-item-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px 0;
+    max-width: 250px;
+}
+
+.timeline-item-content a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.timeline-item-content a::after {
+    content: ' ►';
+    font-size: 12px;
+}
+
+.timeline-item-content .circle {
+    background-color: #fff;
+    border: 3px solid #e17b77;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -40px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .circle {
+    right: auto;
+    left: -40px;
+}
+@media only screen and (max-width: 1023px) {
+    .timeline-item-content {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .timeline-item-content,
+    .timeline-item:nth-child(odd) .timeline-item-content {
+        padding: 15px 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .timeline-item-content .tag {
+        width: calc(100% - 10px);
+        text-align: center;
+    }
+
+    .timeline-item-content time {
+        margin-top: 20px;
+    }
+
+    .timeline-item-content a {
+        text-decoration: underline;
+    }
+
+    .timeline-item-content a::after {
+        display: none;
+    }
+}
