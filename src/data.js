@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Complete tasks with an anonymous partner and hatch eggs after completing all 5 tasks. Uses database, MongoDB, to store user data and stats. It includes OpenAI API and a Twillio API.",
     image: "./habithatch!.gif",
-    link: "https://devpost.com/software/habithatch",
+    link: "https://devpost.com/software/habithatch-wr3z7n",
   },
   {
     
@@ -144,7 +144,7 @@ const timelinedata =[
     },
     link: {
         url:
-            'https://devpost.com/software/habithatch',
+            'https://devpost.com/software/habithatch-wr3z7n',
         text: 'Check it out'
     }
   },       
