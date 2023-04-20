@@ -89,8 +89,8 @@
 }
 /* CSS */
 .about-img-container {
-    width: 400px; /* adjust as needed */
-    height: 400px; /* adjust as needed */
+    width: 20vw; /* adjust as needed */
+    height: 20vw; /* adjust as needed */
     overflow: hidden;
     border-radius: 50%;
   }
