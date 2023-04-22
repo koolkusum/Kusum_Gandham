@@ -19,7 +19,7 @@ export default function Navbar() {
           <a href="#timeline" className="mr-5 hover:text-white">
             Hackathons
           </a>
-          <a href="../Resume (6).pdf" target="_blank" className="mr-5 hover:text-white">
+          <a href="../Resume (7).pdf" target="_blank" className="mr-5 hover:text-white">
             Resume
           </a>
         </nav>

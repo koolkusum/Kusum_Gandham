@@ -18,7 +18,7 @@ export default function About() {
             </span>
           </h1>
           <p className="mb-8 leading-relaxed">
-            <div className= "aboue-me">
+            <div className= "about-me">
             As an aspiring full-stack developer, I'm passionate about exploring various areas of computer science, including data management, game design, and artificial intelligence. 
             In pursuit of my goals, I've taken relevant courses in Data Structures, Systems Programming, Discrete Structures, and Data 101.
             To gain hands-on experience and hone my skills, I've participated in seven hackathons to date and plan to attend many more in the future.

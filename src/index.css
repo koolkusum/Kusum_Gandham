@@ -33,6 +33,10 @@
     width: 70vw;
     height: 70vw;
   }
+  .about-me {
+    font-size: 0.5rem;
+  }
+
 }
 
 
@@ -82,7 +86,12 @@
   margin: 0 0.5rem;
   transition: background-color 0.2s ease-in-out;
 }
-
+@media screen and (max-width: 768px) {
+  .github-btn,
+  .linkedin-btn {
+    margin: 0.45rem; /* adjust as needed */
+  }
+}
 .github-btn:hover,
 .linkedin-btn:hover {
   background-color: #FF79A0;
@@ -101,7 +110,7 @@
     object-fit: cover;
   }
   .about-me {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color:rgba(255, 255, 255, 0.607)
   }
   .animated {
