@@ -21,7 +21,7 @@ export default function About() {
             <div className= "about-me">
             As an aspiring full-stack developer, I'm passionate about exploring various areas of computer science, including data management, game design, and artificial intelligence. 
             In pursuit of my goals, I've taken relevant courses in Data Structures, Systems Programming, Discrete Structures, and Data 101.
-            To gain hands-on experience and hone my skills, I've participated in seven hackathons to date and plan to attend many more in the future.
+            To gain hands-on experience and hone my skills, I've participated in eight hackathons to date and plan to attend many more in the future.
             When I'm not coding, I enjoy indulging in hobbies such as crocheting/knitting, tending to my plant collection, rollerblading, watching anime, and lifting weights.
             </div>
           </p>
