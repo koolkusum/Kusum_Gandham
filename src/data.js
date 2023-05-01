@@ -25,6 +25,14 @@ export const projects = [
     link: "https://devpost.com/software/the-best-swe-meeting-tracker",
   },
   {
+    title: "MyLecturePal",
+    subtitle: "MERN: MongoDB, Express, React, Node",
+    description:
+      "Help keep track of student ratings on each lecture topic. Students who rate higher have the ability to sign up to offer help to students who rated lower.  HACKATHON 1ST PLACE WINNER",
+    image: "./mylecturepal.gif",
+    link: "https://devpost.com/software/mylecturepal",
+  },
+  {
     title: "TrashBash",
     subtitle: "C#, Unity",
     description:
@@ -149,16 +157,16 @@ const timelinedata =[
     }
   },       
   {
-    text: 'HawkHacks',
+    text: 'HawkHacks 2023 - MyLecturePal',
     date: 'April 30 2023',
     category: {
-        tag: 'Upcoming',
-        color: '#be95c4'
+        tag: 'Winner',
+        color: '#90e0ef'
     },
     link: {
         url:
-            '',
-        text: ''
+            'https://devpost.com/software/mylecturepal',
+        text: 'Check it out'
     }
   },
   {
