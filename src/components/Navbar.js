@@ -10,16 +10,16 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center ml-auto">
-          <a href="#projects" className="mr-5 hover:text-white">
+          <a href="#projects" className="mr-5 hover:text-pink-400">
             Projects
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-5 hover:text-pink-400">
             Skills
           </a>
-          <a href="#timeline" className="mr-5 hover:text-white">
+          <a href="#timeline" className="mr-5 hover:text-pink-400">
             Hackathons
           </a>
-          <a href="../Resume (9).pdf" target="_blank" className="mr-5 hover:text-white">
+          <a href="../Resume (9).pdf" target="_blank" className="mr-5 hover:text-pink-400">
             Resume
           </a>
         </nav>
