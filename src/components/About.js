@@ -46,10 +46,10 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6" >
   {/* <div className="about-img-container"> */}
     <img
-      className="about-img animated"
+      className="about-img animated rounded-full"
       alt="hero"
       src="./me33.jpg"
     />

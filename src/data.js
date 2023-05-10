@@ -56,12 +56,12 @@ export const skills = [
   "C",
   "C#",
   "SQL",
+  "MongoDB",
   "HTML/CSS/JS",
   "Python",
   "PHP",
   "R",
-  "Git",
-  "Excel"
+  "Git"
 ];
 
 const timelinedata =[
