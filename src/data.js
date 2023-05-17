@@ -170,19 +170,6 @@ const timelinedata =[
     }
   },
   {
-    text: 'TurtleHacks 2023',
-    date: 'May 14 2023',
-    category: {
-        tag: 'Upcoming',
-        color: '#be95c4'
-    },
-    link: {
-        url:
-            '',
-        text: ''
-    }
-  },
-  {
     text: 'WaffleHacks 2023',
     date: 'June 25 2023',
     category: {
