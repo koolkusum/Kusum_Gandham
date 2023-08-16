@@ -170,28 +170,15 @@ const timelinedata =[
     }
   },
   {
-    text: 'WaffleHacks 2023',
-    date: 'June 25 2023',
+    text: 'PennAppsXXIV',
+    date: 'September 8 2023',
     category: {
       tag: 'Upcoming',
       color:'#be95c4' 
     },
     link: {
       url: 
-          '',
-      text : ''
-    }
-  },
-  {
-    text: 'PyraHacks 2023',
-    date: 'July 16 2023',
-    category: {
-      tag: 'Upcoming',
-      color:'#be95c4' 
-    },
-    link: {
-      url: 
-          '',
+          'https://2023f.pennapps.com/',
       text : ''
     }
   }

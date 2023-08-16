@@ -38,22 +38,28 @@ export default function Education(){
       </div>
 
       <div class="bg-gray-800 shadow-lg rounded-lg p-6">
-        <h3 class="text-xl font-medium text-white mb-0.5">Discrete Structures</h3>
-        <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Probability and Logic</h2>
-        <p class="text-white">This course is broken up into 2 classes. Discrete I covers the fundamentals of proof, logic, and induction. Discrete II covers combinatorics and probability theory required in design and analysis of algorithms and in other areas of computer science.</p>
-      </div>
-      <div class="bg-gray-800 shadow-lg rounded-lg p-6">
         <h3 class="text-xl font-medium text-white mb-0.5">Systems Programming</h3>
         <h2 className="text-sm title-font font-medium text-pink-400 mb-1">C</h2>
         <p class="text-white">This course uses POSIX functions on Linux and covers to handle memory management, child processes, file system concepts, sockets, networking, and multithreading. The course also stresses how programs execute and how to measure and optimize performance.</p>
       </div>
       <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+        <h3 class="text-xl font-medium text-white mb-0.5">Principles of Information and Data Management</h3>
+        <h2 className="text-sm title-font font-medium text-pink-400 mb-1">SQL, Java, JDBC, HTML/CSS</h2>
+        <p class="text-white">Querying various forms of information such as structured data in relational databases, unstructured text (IR), semi-structured data (XML, web), deductive knowledge. Conceptual modeling and schema design. Basics of database management system services.</p>
+      </div>
+      <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+        <h3 class="text-xl font-medium text-white mb-0.5">Discrete Structures</h3>
+        <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Probability and Logic</h2>
+        <p class="text-white">This course is broken up into 2 classes. Discrete I covers the fundamentals of proof, logic, and induction. Discrete II covers combinatorics and probability theory required in design and analysis of algorithms and in other areas of computer science.</p>
+      </div>
+      <div class="bg-gray-800 shadow-lg rounded-lg p-6">
         <h3 class="text-xl font-medium text-white mb-0.5">Data 101</h3>
         <h2 className="text-sm title-font font-medium text-pink-400 mb-1">R and Stats</h2>
         <p class="text-white">This course focuses on data literacy and covers fundamental and basic concepts in statistics and probability such as: Hypothesis testing, Null and Alt
-Hypothesis, Permutation test, z-test, sig level, p-value, Chi
-square test, Bayesian Theorem, Post odds, Linear regression.</p>
+                              Hypothesis, Permutation test, z-test, sig level, p-value, Chi
+                              square test, Bayesian Theorem, Post odds, Linear regression.</p>
       </div>
+
     
     </div>
   </div>
