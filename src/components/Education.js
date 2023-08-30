@@ -24,6 +24,9 @@ export default function Education(){
     <div class="text-left">
       <p class="text-lg text-gray-300">Minor: Human Resource Management </p>
     </div>
+        <div class="text-left">
+      <p class="text-lg text-gray-300">Certifications: Harvard CS50x </p>
+    </div>
     <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <div class="bg-gray-800 shadow-lg rounded-lg p-6">
         <h3 class="text-xl font-medium text-white mb-0.5">Data Structures</h3>
