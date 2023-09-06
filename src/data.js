@@ -181,6 +181,32 @@ const timelinedata =[
           'https://2023f.pennapps.com/',
       text : ''
     }
+  },
+  {
+    text: 'Divhacks 2023',
+    date: 'September 23 2023',
+    category: {
+      tag: 'Upcoming',
+      color:'#be95c4' 
+    },
+    link: {
+      url: 
+          'https://columbiadivhacks.com/',
+      text : ''
+    }
+  },
+  {
+    text: 'HACKRU fall 2023',
+    date: 'October 7 2023',
+    category: {
+      tag: 'Upcoming',
+      color:'#be95c4' 
+    },
+    link: {
+      url: 
+          'https://hackru.org/',
+      text : ''
+    }
   }
 ]
 timelinedata.reverse();
