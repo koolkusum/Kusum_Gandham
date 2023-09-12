@@ -173,12 +173,12 @@ const timelinedata =[
     text: 'PennAppsXXIV',
     date: 'September 8 2023',
     category: {
-      tag: 'Upcoming',
-      color:'#be95c4' 
+      tag: 'Participant',
+      color:'#f08080' 
     },
     link: {
       url: 
-          'https://2023f.pennapps.com/',
+          'https://devpost.com/software/project-8pardj9solib?ref_content=user-portfolio&ref_feature=in_progress',
       text : ''
     }
   },
