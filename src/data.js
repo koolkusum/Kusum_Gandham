@@ -170,7 +170,7 @@ const timelinedata =[
     }
   },
   {
-    text: 'PennAppsXXIV',
+    text: 'PennAppsXXIV - Sustainably Yours Forum',
     date: 'September 8 2023',
     category: {
       tag: 'Participant',
@@ -179,25 +179,38 @@ const timelinedata =[
     link: {
       url: 
           'https://devpost.com/software/project-8pardj9solib?ref_content=user-portfolio&ref_feature=in_progress',
-      text : ''
+      text : 'Check it out'
     }
   },
   {
-    text: 'Divhacks 2023',
+    text: 'Divhacks 2023 - Veggie Guard',
     date: 'September 23 2023',
     category: {
-      tag: 'Upcoming',
-      color:'#be95c4' 
+      tag: 'Participant',
+      color:'#f08080' 
     },
     link: {
       url: 
-          'https://columbiadivhacks.com/',
-      text : ''
+          'https://devpost.com/software/veggie-guard',
+      text : 'Check it out'
     }
   },
   {
-    text: 'HACKRU fall 2023',
+    text: 'HACKRU Fall 2023 - RUAttending?',
     date: 'October 7 2023',
+    category: {
+      tag: 'Participant',
+      color:'#f08080' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/ru-attending',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'Technica 2023',
+    date: 'October 21 2023',
     category: {
       tag: 'Upcoming',
       color:'#be95c4' 
