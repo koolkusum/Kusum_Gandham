@@ -208,8 +208,21 @@ const timelinedata =[
       text : 'Check it out'
     }
   },
+    {
+    text: 'Technica 2023 - Your Green Planet',
+    date: 'October 21 2023',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/your-green-planet',
+      text : 'Check it out'
+    }
+  },
   {
-    text: 'Technica 2023',
+    text: 'HackPrinceton Fall 2023',
     date: 'October 21 2023',
     category: {
       tag: 'Upcoming',
@@ -217,7 +230,7 @@ const timelinedata =[
     },
     link: {
       url: 
-          'https://hackru.org/',
+          'https://www.hackprinceton.com/',
       text : ''
     }
   }
