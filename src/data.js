@@ -40,14 +40,14 @@ export const projects = [
     image: "./swemeeting.gif",
     link: "https://devpost.com/software/the-best-swe-meeting-tracker",
   },
-  {
-    title: "MyLecturePal",
-    subtitle: "MERN: MongoDB, Express, React, Node, HTML/CSS/JS",
-    description:
-      "Help keep track of student ratings on each lecture topic. Students who rate higher have the ability to sign up to offer help to students who rated lower.  HACKATHON 1ST PLACE WINNER",
-    image: "./mylecturepal.gif",
-    link: "https://devpost.com/software/mylecturepal",
-  },
+  // {
+  //   title: "MyLecturePal",
+  //   subtitle: "MERN: MongoDB, Express, React, Node, HTML/CSS/JS",
+  //   description:
+  //     "Help keep track of student ratings on each lecture topic. Students who rate higher have the ability to sign up to offer help to students who rated lower.  HACKATHON 1ST PLACE WINNER",
+  //   image: "./mylecturepal.gif",
+  //   link: "https://devpost.com/software/mylecturepal",
+  // },
   {
     title: "TrashBash",
     subtitle: "C#, Unity",
