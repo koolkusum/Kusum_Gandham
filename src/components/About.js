@@ -20,7 +20,7 @@ export default function About() {
           <p className="mb-8 leading-relaxed">
             <div className= "about-me">
             As an aspiring full-stack developer, I'm passionate about exploring various areas of computer science, including database management, data science, and artificial intelligence. 
-            To gain hands-on experience and hone my skills, I've participated in twelve hackathons to date and plan to attend many more in the future.
+            To gain hands-on experience and hone my skills, I've participated in thirteen hackathons to date and plan to attend many more in the future.
             When I'm not coding, I enjoy indulging in hobbies such as crocheting/knitting, tending to my plant collection, rollerblading, watching anime, and lifting weights.
             </div>
           </p>

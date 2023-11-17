@@ -49,7 +49,7 @@ export default function Navbar() {
             Hackathons
           </Link>
           <a
-            href="../Resume (10).pdf"
+            href="../Kusum_Gandham_Resume.pdf"
             target="_blank"
             className="mr-5 hover:text-pink-400"
           >

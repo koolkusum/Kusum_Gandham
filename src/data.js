@@ -1,5 +1,21 @@
 export const projects = [
   {
+    title: "RUAttending?",
+    subtitle: "MERN: MongoDB, Express, React, Node, HTML/CSS/JS, TailwindCSS",
+    description:
+      "In response to RU Missed Connections, we developed a wesbite to be able to connect with other peers and attend local events while adding them to the Google Calendar API.",
+    image: "./RUAttending_Demo.gif",
+    link: "https://devpost.com/software/ru-attending",
+  },
+  {
+    title: "ResumeReviser",
+    subtitle: "Python, Flask, SQLite3, HTML/CSS/JS, Bootstrap",
+    description:
+      "Search for a job listing and upload a pdf of your resume and the website returns a percentage match to the job. It uses NLP, specifically, cosine similarity for the calculation.",
+    image: "./ResumeReviser.gif",
+    link: "https://devpost.com/software/resumereview",
+  },
+  {
     title: "HabitHatch!",
     subtitle: "MERN: MongoDB, Express, React, Node",
     description:
@@ -10,7 +26,7 @@ export const projects = [
   {
     
     title: "Sheet Music Scanner",
-    subtitle: "Python, MongoDB, HTML/CSS",
+    subtitle: "Python, Flask, MongoDB, HTML/CSS/JS",
     description:
       "Upload a JPEG file of sheet music and convert it into a midi file you can listen to. You can save the music to the user dashboard, share the link, and save the file.",
     image: "./sheetmusic.gif",
@@ -18,7 +34,7 @@ export const projects = [
   },
   {
     title: "SWE Meeting Tracker",
-    subtitle: "PHP, SQL, HTML/CSS",
+    subtitle: "PHP, MySQL, HTML/CSS/JS",
     description:
       "Society of Women Engineers requested a more efficent way to track attendance to club meetings so we created a website with an admin and user page to better track attendance.  HACKATHON WINNER",
     image: "./swemeeting.gif",
@@ -26,7 +42,7 @@ export const projects = [
   },
   {
     title: "MyLecturePal",
-    subtitle: "MERN: MongoDB, Express, React, Node",
+    subtitle: "MERN: MongoDB, Express, React, Node, HTML/CSS/JS",
     description:
       "Help keep track of student ratings on each lecture topic. Students who rate higher have the ability to sign up to offer help to students who rated lower.  HACKATHON 1ST PLACE WINNER",
     image: "./mylecturepal.gif",
@@ -39,15 +55,7 @@ export const projects = [
       "A RPG about educating the youth about waste management by battling climate change monsters in a dungeon and avoiding obstacles. HACKATHON WINNER",
     image: "./trashbash.gif",
     link: "https://devpost.com/software/trashbash-recycling-rpg",
-  },
-  {
-    title: "Virus Attack",
-    subtitle: "C#, Unity",
-    description:
-      "A RPG about fighting off a reincarnation of the first virus attack. The game educates on computer science and addresses issues like imposter syndrome.",
-    image: "./virusattack2.gif",
-    link: "https://devpost.com/software/virus-attack",
-  },
+  }
 ];
 
 
@@ -225,15 +233,16 @@ const timelinedata =[
     text: 'HackPrinceton Fall 2023',
     date: 'October 21 2023',
     category: {
-      tag: 'Upcoming',
-      color:'#be95c4' 
+      tag: 'Winner',
+      color:'#90e0ef' 
     },
     link: {
       url: 
-          'https://www.hackprinceton.com/',
-      text : ''
+          'https://devpost.com/software/resumereview',
+      text : 'Check it out'
     }
   }
 ]
+
 timelinedata.reverse();
 export default timelinedata;
