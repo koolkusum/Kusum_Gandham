@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "RUAttending?",
-    subtitle: "MERN: MongoDB, Express, React, Node, HTML/CSS/JS, TailwindCSS",
+    subtitle: "MERN: MongoDB, Express, React, Node, TailwindCSS",
     description:
       "In response to RU Missed Connections, we developed a wesbite to be able to connect with other peers and attend local events while adding them to the Google Calendar API.",
     image: "./RUAttending_Demo.gif",
@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: "ResumeReviser",
-    subtitle: "Python, Flask, SQLite3, HTML/CSS/JS, Bootstrap",
+    subtitle: "Python, Flask, SQLite3, Bootstrap",
     description:
       "Search for a job listing and upload a pdf of your resume and the website returns a percentage match to the job. It uses NLP, specifically, cosine similarity for the calculation.",
     image: "./ResumeReviser.gif",
@@ -230,7 +230,7 @@ const timelinedata =[
     }
   },
   {
-    text: 'HackPrinceton Fall 2023',
+    text: 'HackPrinceton Fall 2023 - Resume Reviser',
     date: 'October 21 2023',
     category: {
       tag: 'Winner',
@@ -239,6 +239,45 @@ const timelinedata =[
     link: {
       url: 
           'https://devpost.com/software/resumereview',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'HackHERS Spring 2024 - BalancSync',
+    date: 'October 21 2023',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/balancsync',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'HackHERS 2024 - BalancSync',
+    date: 'February 10 2024',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/balancsync',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'Social Good RIEEE - SWE Meeting Tracker',
+    date: 'February 24 2024',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/drc-hack',
       text : 'Check it out'
     }
   }

@@ -35,6 +35,11 @@ export default function Education(){
       </div>
 
       <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+        <h3 class="text-xl font-medium text-white mb-0.5">Introduction to Artificial Intelligence</h3>
+        <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Python</h2>
+        <p class="text-white">The course will cover both fundamental concepts such as search and knowledge representation on grpah structures, as well as applied work in areas such as planning and vision.</p>
+      </div>
+      <div class="bg-gray-800 shadow-lg rounded-lg p-6">
         <h3 class="text-xl font-medium text-white mb-0.5">Computer Architecture</h3>
         <h2 className="text-sm title-font font-medium text-pink-400 mb-1">C</h2>
         <p class="text-white">This course covers the fundamental issues in the design of modern computer systems, including the design and implementation of key hardware components such as the processor, memory, and I/O devices, and the software/hardware interface.</p>
@@ -44,6 +49,11 @@ export default function Education(){
         <h3 class="text-xl font-medium text-white mb-0.5">Systems Programming</h3>
         <h2 className="text-sm title-font font-medium text-pink-400 mb-1">C</h2>
         <p class="text-white">This course uses POSIX functions on Linux and covers to handle memory management, child processes, file system concepts, sockets, networking, and multithreading. The course also stresses how programs execute and how to measure and optimize performance.</p>
+      </div>
+      <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+        <h3 class="text-xl font-medium text-white mb-0.5">Software Methodology</h3>
+        <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Java, JavaFX, Android Studio</h2>
+        <p class="text-white">This course teaches in Java object-oriented programming and design, UML, testing and debugging, using and documenting APIs, asynchronous (event-driven) programming in GUI framework, code maintenance and version management using CVS, introduction to building software on mobile platforms. </p>
       </div>
       <div class="bg-gray-800 shadow-lg rounded-lg p-6">
         <h3 class="text-xl font-medium text-white mb-0.5">Principles of Information and Data Management</h3>
@@ -56,13 +66,19 @@ export default function Education(){
         <p class="text-white">This course is broken up into 2 classes. Discrete I covers the fundamentals of proof, logic, and induction. Discrete II covers combinatorics and probability theory required in design and analysis of algorithms and in other areas of computer science.</p>
       </div>
       <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+        <h3 class="text-xl font-medium text-white mb-0.5">Data Management for Data Science</h3>
+        <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Python</h2>
+        <p class="text-white"> This course teaches to learn various domain independent/dependent ways to curate the data, and get the curated data into a form that can be explored, managed and analyzed. Students will also learn how to get datasets into database-ready form and do basic analysis of such datasets using  SQL.</p>
+      </div>
+      
+      <div class="bg-gray-800 shadow-lg rounded-lg p-6">
         <h3 class="text-xl font-medium text-white mb-0.5">Data 101</h3>
         <h2 className="text-sm title-font font-medium text-pink-400 mb-1">R and Stats</h2>
         <p class="text-white">This course focuses on data literacy and covers fundamental and basic concepts in statistics and probability such as: Hypothesis testing, Null and Alt
                               Hypothesis, Permutation test, z-test, sig level, p-value, Chi
                               square test, Bayesian Theorem, Post odds, Linear regression.</p>
       </div>
-
+      
     
     </div>
   </div>
