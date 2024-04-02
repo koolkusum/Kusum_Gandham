@@ -256,7 +256,7 @@ const timelinedata =[
     }
   },
   {
-    text: 'Social Good RIEEE - SWE Meeting Tracker',
+    text: 'Social Good RIEEE - DRC Women in Stem Empowerment',
     date: 'February 24 2024',
     category: {
       tag: 'Winner',
