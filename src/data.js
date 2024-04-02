@@ -243,19 +243,6 @@ const timelinedata =[
     }
   },
   {
-    text: 'HackHERS Spring 2024 - BalancSync',
-    date: 'October 21 2023',
-    category: {
-      tag: 'Winner',
-      color:'#90e0ef' 
-    },
-    link: {
-      url: 
-          'https://devpost.com/software/balancsync',
-      text : 'Check it out'
-    }
-  },
-  {
     text: 'HackHERS 2024 - BalancSync',
     date: 'February 10 2024',
     category: {
@@ -278,6 +265,32 @@ const timelinedata =[
     link: {
       url: 
           'https://devpost.com/software/drc-hack',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'HackRU Spring 2024 - Green Habits',
+    date: 'March 23 2024',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/green-habits',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'HackPrinceton Spring 2024 - New Leaf',
+    date: 'March 30 2024',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'hhttps://devpost.com/software/newleaf',
       text : 'Check it out'
     }
   }
