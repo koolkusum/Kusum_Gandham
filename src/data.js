@@ -290,7 +290,7 @@ const timelinedata =[
     },
     link: {
       url: 
-          'hhttps://devpost.com/software/newleaf',
+          'https://devpost.com/software/newleaf',
       text : 'Check it out'
     }
   }
