@@ -38,7 +38,7 @@ export const projects = [
     description:
       "Society of Women Engineers requested a more efficent way to track attendance to club meetings so we created a website with an admin and user page to better track attendance.  HACKATHON WINNER",
     image: "./swemeeting.gif",
-    link: "https://devpost.com/software/the-best-swe-meeting-tracker",
+    link: "https://ruswe.onrender.com/",
   },
   // {
   //   title: "MyLecturePal",
@@ -291,6 +291,19 @@ const timelinedata =[
     link: {
       url: 
           'https://devpost.com/software/newleaf',
+      text : 'Check it out'
+    }
+  },
+  {
+    text: 'DragonHacks 2024 - PEEK Student',
+    date: 'April 14 2024',
+    category: {
+      tag: 'Winner',
+      color:'#90e0ef' 
+    },
+    link: {
+      url: 
+          'https://devpost.com/software/peek-student',
       text : 'Check it out'
     }
   }
