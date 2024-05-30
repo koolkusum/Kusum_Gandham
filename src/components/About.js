@@ -14,7 +14,7 @@ export default function About() {
             </span>
             <br className="hidden lg:inline-block" />
             <span className="cs-major hidden lg:inline-block">
-              CS Major and HRM Minor at Rutgers University
+              Full-Stack Software Developer
             </span>
           </h1>
           <p className="mb-8 leading-relaxed">
