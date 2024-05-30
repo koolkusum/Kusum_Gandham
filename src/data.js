@@ -1,5 +1,22 @@
 export const projects = [
   {
+    title: "SWE Meeting Tracker",
+    subtitle: "MERN: MongoDB, Express, React, Node",
+    description:
+      "Society of Women Engineers requested a more efficent way to track attendance to club meetings so we created a website with an admin and user page to better track attendance of 100+ members.",
+    image: "./sweMeeting.gif",
+    link: "https://ruswe.onrender.com/",
+  },
+  {
+    
+    title: "PEEK Student",
+    subtitle: "Python, Flask, MongoDB, Auth0, GeminiAPI HTML/CSS/JS",
+    description:
+      "Get reccomended professors based on your preferences and see what other students have to say about them. It uses a MongoDB database to store user data and reviews.",
+    image: "./peekstudent.gif",
+    link: "https://devpost.com/software/peek-student",
+  },
+  {
     title: "RUAttending?",
     subtitle: "MERN: MongoDB, Express, React, Node, TailwindCSS",
     description:
@@ -23,23 +40,8 @@ export const projects = [
     image: "./habithatch!.gif",
     link: "https://devpost.com/software/habithatch-wr3z7n",
   },
-  {
-    
-    title: "Sheet Music Scanner",
-    subtitle: "Python, Flask, MongoDB, HTML/CSS/JS",
-    description:
-      "Upload a JPEG file of sheet music and convert it into a midi file you can listen to. You can save the music to the user dashboard, share the link, and save the file.",
-    image: "./sheetmusic.gif",
-    link: "https://devpost.com/software/sheet-music-scanner",
-  },
-  {
-    title: "SWE Meeting Tracker",
-    subtitle: "PHP, MySQL, HTML/CSS/JS",
-    description:
-      "Society of Women Engineers requested a more efficent way to track attendance to club meetings so we created a website with an admin and user page to better track attendance.  HACKATHON WINNER",
-    image: "./swemeeting.gif",
-    link: "https://ruswe.onrender.com/",
-  },
+ 
+
   // {
   //   title: "MyLecturePal",
   //   subtitle: "MERN: MongoDB, Express, React, Node, HTML/CSS/JS",
