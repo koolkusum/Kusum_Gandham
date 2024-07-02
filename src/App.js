@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 
 export default function App() {
   return  (
@@ -14,8 +15,9 @@ export default function App() {
       
       <Navbar />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
+      <Experience />
       <Education/>
       <Timeline />
     </main>

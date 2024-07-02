@@ -24,14 +24,15 @@ export default function Navbar() {
           >
             Projects
           </Link>
+
           <Link
-            to="skills"
+            to="experience"
             smooth={true}
             duration={500}
             className="mr-5 hover:text-pink-400 cursor-pointer"
           >
-            Skills
-          </Link>
+            Experience
+            </Link>
           <Link
             to="education"
             smooth={true}

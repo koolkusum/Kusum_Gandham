@@ -63,14 +63,14 @@ export const projects = [
 
 export const skills = [
   "Java",
+  "Python",
+  "Flask",
+  "React",
   "C",
-  "C#",
+  "JavaScript",
   "SQL",
   "MongoDB",
   "HTML/CSS/JS",
-  "Python",
-  "PHP",
-  "R",
   "Git"
 ];
 
