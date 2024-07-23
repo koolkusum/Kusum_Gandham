@@ -25,7 +25,7 @@ export default function Experience(){
                 </div>
                 <div class="bg-gray-800 shadow-lg rounded-lg p-6 max-w-lg mx-auto">
                     <h3 class="text-xl font-medium text-white mb-0.5">Computing Academic Tutor Manager @ Rutgers University</h3>
-                    <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Septemeber 2023 - June 2024</h2>
+                    <h2 className="text-sm title-font font-medium text-pink-400 mb-1">September 2023 - June 2024</h2>
                     <ul className="list-disc pl-5 text-left">
                                 <li>Appointed first tutoring manager of the program to oversee over 20 computing peer tutors; provided mentorship to tutors and led hiring processes for new tutors.</li>
                                 <li>Conducted weekly office hours for Introduction to Computer Science and Data Structures, providing comprehensive assistance to over 150 students per month.</li>
@@ -35,7 +35,7 @@ export default function Experience(){
 
                 <div class="bg-gray-800 shadow-lg rounded-lg p-6 max-w-lg mx-auto">
                     <h3 class="text-xl font-medium text-white mb-0.5">Instructional Lab Assistant @ Rutgers University</h3>
-                    <h2 className="text-sm title-font font-medium text-pink-400 mb-1">Septemeber 2023 - May 2024</h2>
+                    <h2 className="text-sm title-font font-medium text-pink-400 mb-1">September 2023 - May 2024</h2>
                     <ul className="list-disc pl-5 text-left">
                                 <li>Orchestrated the maintenance and optimization of a cluster of 30 remotely accessible Linux servers, ensuring seamless performance and reliability used by 1000+ of students.</li>
                                 <li>Assumed a supervisory role overseeing day-to-day operations to uphold an environment conducive to research and academic pursuits for students and researchers.</li>
